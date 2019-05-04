@@ -12,6 +12,7 @@ builddeps  :
     - libxfixes-devel
     - libjpeg-turbo-devel
     - libxext-devel
+    - libxi-devel
     - pkgconfig(freetype2)
     - pkgconfig(fontconfig)
 
@@ -21,4 +22,4 @@ setup      : |
 build      : |
     %make
 install    : |
-    %make_install
+    DESTDIR=$installdir make install-strip
