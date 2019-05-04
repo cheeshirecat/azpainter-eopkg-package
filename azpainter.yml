@@ -1,0 +1,24 @@
+name       : azpainter
+version    : 2.1.4
+release    : 1
+source     :
+    - http://pumath.dl.osdn.jp/azpainter/71051/azpainter-2.1.4.tar.xz : 200dba9b443888054172fd13c8d9045d1556210834a46edaa0267bc80a2bad30
+license    : GPL-3.0
+component  : multimedia.graphics
+summary    : Painting Software
+description: |
+    Full color painting software for Linux for illustration drawing.
+builddeps  :
+    - libxfixes-devel
+    - libjpeg-turbo-devel
+    - libxext-devel
+    - pkgconfig(freetype2)
+    - pkgconfig(fontconfig)
+
+setup      : |
+    %configure
+  
+build      : |
+    %make
+install    : |
+    %make_install
