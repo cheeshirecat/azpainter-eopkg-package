@@ -1,8 +1,8 @@
 name       : azpainter
-version    : 2.1.4
+version    : 2.1.5
 release    : 1
 source     :
-    - http://pumath.dl.osdn.jp/azpainter/71051/azpainter-2.1.4.tar.xz : 200dba9b443888054172fd13c8d9045d1556210834a46edaa0267bc80a2bad30
+    - http://pumath.dl.osdn.jp/azpainter/71988/azpainter-2.1.5.tar.xz : de96d3f33c7de53ff2ad1cd13be98d4bd595c86d1b75e21f509afd56e5cd9dc7
 license    : GPL-3.0
 component  : multimedia.graphics
 summary    : Painting Software
